@@ -26,7 +26,7 @@ void SeaPlusPlusEngine::run()
         std::cout << "Welcome back, " << currentUser << "!\n";
     } else
     {
-        std::cout << "Oh... you don’t seem to have a bucket yet!\n";
+        std::cout << "Oh... you don not seem to have a bucket yet!\n";
         std::cout << "You are now added, " << currentUser << "! We'll remember your bucket from now on.\n";
         userBuckets[currentUser] = {};
     }
@@ -40,7 +40,7 @@ void SeaPlusPlusEngine::run()
 
     while (running)
     {
-        std::cout << "\n 🌊Sea++🌊 \n";
+        std::cout << "\n Sea++ \n";
         std::cout << "1. Add Fish to Bucket\n";
         std::cout << "2. View Bucket\n";
         std::cout << "3. Check If Your Bucket Is Legal\n";
@@ -141,7 +141,7 @@ void SeaPlusPlusEngine::listCreatures() const
     VertebrateChecker vCheck;
     InvertebrateChecker iCheck;
 
-    std::cout << "\n 🐠Vertebrate Creatures🐠 \n";
+    std::cout << "\n Vertebrate Creatures \n";
     for (const auto& creature : bucket)
     {
         if (vCheck.check(creature))
@@ -152,7 +152,7 @@ void SeaPlusPlusEngine::listCreatures() const
         }
     }
 
-    std::cout << "\n 🦀Invertebrate Creatures🦀 \n";
+    std::cout << "\n Invertebrate Creatures \n";
     for (const auto& creature : bucket)
     {
         if (iCheck.check(creature))
@@ -163,7 +163,7 @@ void SeaPlusPlusEngine::listCreatures() const
         }
     }
 
-    std::cout << "\n ❓Unknown Creatures❓ \n";
+    std::cout << "\n Unknown Creatures \n";
     for (const auto& creature : bucket)
     {
         if (creature->getType() == "Unknown")
@@ -174,7 +174,7 @@ void SeaPlusPlusEngine::listCreatures() const
         }
     }
 
-    std::cout << "\n 💧Freshwater Creatures💧 \n";
+    std::cout << "\n Freshwater Creatures \n";
     for (const auto& creature : bucket)
     {
         if (creature->getType() == "Freshwater")
@@ -245,7 +245,7 @@ void SeaPlusPlusEngine::checkCreatures() const
         }
     }
 
-    std::cout << "\n🚨 Regulation Check 🚨\n";
+    std::cout << "\n Regulation Check \n";
 
     if (!illegalCountMap.empty() || !excessCountMap.empty())
     {
