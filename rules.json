@@ -1,0 +1,165 @@
+{
+  "Bass":
+  {
+      "minSize" : 35,
+      "bagLimit" : 2,
+      "noKeepIfEggs" : false,
+      "class" : "Vertebrate"
+  },
+
+  "Estuary Perch":
+  {
+      "minSize" : 35,
+      "bagLimit" : 2,
+      "noKeepIfEggs" : false,
+      "class" : "Vertebrate"
+  },
+
+  "Salmon" :
+  {
+      "minSize" : 0,
+      "bagLimit" : 5,
+      "noKeepIfEggs" : false,
+      "class" : "Vertebrate"
+  },
+
+  "Blue Drummer" :
+  {
+    "minSize" : 0,
+    "bagLimit" : 0,
+    "noKeepIfEggs" : true,
+    "class" : "Vertebrate"
+  },
+
+  "Tailor":
+  {
+    "minSize" : 30,
+    "bagLimit" : 10,
+    "noKeepIfEggs" : false,
+    "class" : "Vertebrate"
+  },
+
+  "Snapper":
+  {
+    "minSize" : 30,
+    "bagLimit" : 10,
+    "noKeepIfEggs" : false,
+    "class" : "Vertebrate"
+  },
+
+  "Sawtail":
+  {
+    "minSize" : 0,
+    "bagLimit" : 5,
+    "noKeepIfEggs" : false,
+    "class" : "Vertebrate"
+  },
+
+
+  "Abalone":
+  {
+    "minSize" : 11,
+    "bagLimit" : 2,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Balmain":
+  {
+    "minSize" : 10,
+    "bagLimit" : 20,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Beach Worm":
+  {
+    "minSize" : 0,
+    "bagLimit" : 20,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Worm":
+  {
+    "minSize" : 0,
+    "bagLimit" : 100,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Mud Crab":
+  {
+    "minSize" : 8.5,
+    "bagLimit" : 5,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Soldier Crab":
+  {
+    "minSize" : 0,
+    "bagLimit" : 100,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Oyster":
+  {
+    "minSize" : 0,
+    "bagLimit" : 50,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+  "Scallop":
+  {
+    "minSize" : 0,
+    "bagLimit" : 50,
+    "noKeepIfEggs" : false,
+    "class" : "Invertebrate"
+  },
+
+
+  "Murray":
+  {
+    "minSize" : 10,
+    "bagLimit" : 4,
+    "noKeepIfEggs" : false,
+    "class" : "Freshwater"
+  },
+
+  "Short Eel":
+  {
+    "minSize" : 30,
+    "bagLimit" : 10,
+    "noKeepIfEggs" : false,
+    "class" : "Freshwater"
+  },
+
+
+  "Long Eel":
+  {
+    "minSize" : 58,
+    "bagLimit" : 10,
+    "noKeepIfEggs" : false,
+    "class" : "Freshwater"
+  },
+
+
+  "Golden Perch":
+  {
+    "minSize" : 30,
+    "bagLimit" : 10,
+    "noKeepIfEggs" : false,
+    "class" : "Freshwater"
+  },
+
+  "Silver Perch":
+  {
+    "minSize" : 25,
+    "bagLimit" : 10,
+    "noKeepIfEggs" : false,
+    "class" : "Freshwater"
+  }
+}
